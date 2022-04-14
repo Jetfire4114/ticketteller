@@ -18,9 +18,9 @@
      text-decoration: none;
      font-style: italic;
    }
-   a.contact {
-      color: blue;
-      font-style: italic;
+   ul li a.contact {
+     color: blue;
+     font-style: italic;
    }
 
 body
