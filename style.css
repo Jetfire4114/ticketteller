@@ -1,0 +1,149 @@
+/* unvisited link */
+   a:link {
+     color: white;
+   }
+   /* visited link */
+   a:visited {
+     color: plum;
+   }
+   /* mouse over link */
+   a:hover {
+     color: seagreen;
+   }
+   /* selected link */
+   a:active {
+     color: papayawhip;
+   }
+   a.text {
+     text-decoration: none;
+     font-style: italic;
+   }
+
+body
+{
+height: 125vh;
+margin-top: 80px;
+padding: 30px;
+background-color: black;
+background-size: cover;
+font-family: sans-serif;
+color: white;
+}
+header {
+background-color: #00008B;
+position: fixed;
+left: 0;
+right: 0;
+top: 5px;
+height: 30px;
+display: flex;
+align-items: center;
+box-shadow: 0 0 25px 0 black;
+scroll-behavior: smooth;
+}
+header * {
+display: inline;
+}
+header li {
+margin: 50px;
+}
+header li a {
+color: blue;
+text-decoration: none;
+}
+ul {
+  font-size: 27px;
+  line-height: 50px;
+}
+ol {
+  font-size: 25px;
+  line-height: 35px;
+}
+
+h1 {
+  color: #03a9f4;
+  font-family: inherit;
+  font: bold 5em "Marko One";
+  text-align: center;
+}
+h2 {
+  color: #63c5da;
+  font-size: 30px;
+}
+hr {
+line-height: inherit;
+}
+footer p {
+  color: grey;
+}
+footer a:link {
+  text-decoration: none;
+  color: #bdbdbd;
+}
+footer a:hover {
+  text-decoration: none;
+  color: #fafafa;
+}
+footer hr {
+  color: grey;
+}
+img {
+  max-width: 500px;
+}
+p {
+  font-size: 25px;
+}
+h2.about {
+  text-align: center;
+}
+p.about {
+  text-align: center;
+}
+h2.socials {
+  text-indent: 350px;
+  font-size: 30px;
+}
+h2.gigs {
+  color: #63c5da;
+  font-size: 30px;
+  text-indent: 10px;
+}
+h3.gigs {
+  color: #007399;
+  text-indent: 185px;
+  text-decoration: underline;
+  text-decoration-style: double;
+}
+.heart {
+  color: blue;
+  font-size: 50px;
+}
+button {
+  line-height: 45px;
+  color: white;
+  background-color: blue;
+  font-style: oblique;
+  font-weight: bolder;
+  position: relative;
+  margin: 25px;
+  margin-left: 500px;
+  align-content: center;
+  align-items: center;
+}
+h2.store {
+  font-size: 50px;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: white;
+  text-align: center;
+}
+p.store {
+  text-align: center;
+  align-content: center;
+  align-items: center;
+
+}
+p.contact {
+  text-align: center;
+  margin: 25px;
+}
